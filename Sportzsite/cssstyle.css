@@ -1,0 +1,156 @@
+/*border margin and padding are set to 0px to avoid white spaces around the corners*/
+html {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*header for the page*/
+header {
+	background-color:#B0C4DE;
+	font-size: 32px;
+	font-weight: bold;
+	height: 100px;
+	color: #002400;
+}
+
+/*background color is set for the body and the border,margin and padding are set to 0px*/
+body {
+	font-family: sans-serif;
+	background-color: #F0F0F0;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	color: #002400;
+}
+
+/*background color and height for navigation bar*/
+nav {
+	background-color: #4169E1;
+	height: 40px;
+}
+
+/*unordered list with no styles*/
+ul {
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 10px;
+}
+
+/* the list should float left as the navigation items are horizontal*/
+li {
+	float: left;
+}
+
+/* The anchor tags for the navigation bar*/
+a {
+	color: #000000;
+	display: block;
+	font-family: sans-serif;
+	text-decoration: none;
+	font-size: 16px;
+	width: 100px;
+}
+
+/* The logo for the page*/
+#logo {
+	height: 90px;
+}
+
+/* The main section for the page*/
+#main {
+	float: left;
+	min-height: 1px;
+	width: 70%;
+	height: 80%;
+	padding:25px;
+}
+
+/*Header for main section*/
+#main h2 {
+	margin-left: 450px;
+	margin-top: 25px;
+}
+
+/*The google map*/
+#map {
+	width: 100%;
+	height: 600px;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+
+/*The right side bar*/
+#rightsidebar {
+	background-color:#B0C4DE ;
+	float: right;
+	height: 750px;
+	width: 20%;
+}
+
+/*Style for introduction text*/
+.introductiontext {
+	text-indent: 20px;
+	margin-left: 7px;
+}
+
+/*Style for introduction h4*/
+#introduction h4 {
+	margin-left: 7px;
+}
+
+/*Header for right side bar*/
+#rightsidebar h3 {
+	margin-left: 7px;
+}
+
+/* The div class for the summary*/
+.control {
+	background-color: #F0F0F0;
+	height: 300px;
+	margin: 14px;
+}
+
+/*Style for radio buttons*/
+input[type=radio] {
+	height: 2em;
+	width: 2em;
+	vertical-align: -7px;
+	margin-top: 5px;
+}
+
+/*Style for radio texts*/
+.radiotext {
+	color: white;
+}
+
+/*Style for each locations*/
+#Cricket {
+	margin-left: 5px;
+	padding: 1.5px;
+	outline: #41b6c4 groove;
+	background-color: #41b6c4;
+}
+
+#Baseball {
+	margin-left: 5px;
+	padding: 1.5px;
+	outline: #1d91c0 groove;
+	background-color: #1d91c0;
+}
+
+#Chess {
+	margin-left: 5px;
+	padding: 1.5px;
+	outline: #225ea8 groove;
+	background-color: #225ea8;
+}
+
+#Tabletennis {
+	margin-left: 5px;
+	padding: 1.5px;
+	outline: #0c2c84 groove;
+	background-color: #0c2c84;
+}
